@@ -1,24 +1,27 @@
-//Display Current Date at Jumbotron
+//Display Current Date at Jumbotron (using Moment.JS library)
 var currentDateAndTime = (moment().format("MMMM D, YYYY"))
 $("#currentDay").text(currentDateAndTime);
 
-var timeFlies = function () {
+
+//Function that loops through task container and updates div id to
+// correspond with time.
+//Function compairs current time to time on schedule via loop
+//and adds color based on if statment.
+function timeFlies () {
     var currentTime = moment().hour()
     console.log (currentTime)
     for (var i = 9; i < 18; i++) {
-        var taskArea = $("#time" + i)
+        var myTask = $("#time" + i)
         if (currentTime > i) {
-            $(taskArea).addClass("past");
+            $(myTask).addClass("past");
         } else if (currentTime === i) {
-            $(taskArea).addClass("present");
+            $(myTask).addClass("present");
         } else {
-            $(taskArea).addClass("future")
+            $(myTask).addClass("future")
         }
     }
 }
 
 setInterval(function(){
     timeFlies();},1000*60*60);
-
-
 timeFlies ()
