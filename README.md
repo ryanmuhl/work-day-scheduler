@@ -28,10 +28,10 @@ Create a daily planner so that a user can manage time effectively throughout the
 * FontAwesome
 
 ## Website
-https://ryanmuhl.github.io/code-quiz/
+https://ryanmuhl.github.io/work-day-scheduler/
 
 ## Repository
-https://github.com/ryanmuhl/code-quiz
+https://github.com/ryanmuhl/work-day-scheduler
 
 ## Screenshot
 ![Challenge Screenshot](https://github.com/ryanmuhl/work-day-scheduler/blob/main/assets/images/screenshot.png.jpg)
