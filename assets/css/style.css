@@ -9,8 +9,9 @@ body {
     border: none;
     resize: none;
     color: #000000;
-    border-left: 1px solid black;
     padding: 10px;
+    width: 37vw;
+    height: 4vw;
   }
   
   .jumbotron {
