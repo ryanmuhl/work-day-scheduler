@@ -13,7 +13,7 @@ Create a daily planner so that a user can manage time effectively throughout the
 * When page is re freshed,  then the event persists.
 
 
-## Difficulties/Problems Encoutered
+## Difficulties/Problems Encountered
 * JQUERY is a new concept that I will need more time to develop.  Time was an issue this week.  Time management was adjusted to be able to catch up on modules.  Homework/Challenges have been taking a good deal of time to complete.
 
 ## Built With
